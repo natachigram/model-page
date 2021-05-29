@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14pt;
+  font-weight: 600;
+  color: #fff;
+  width: 95%;
+  height: 4em;
+  margin: 0 auto;
+  border-bottom: 0.5px solid #fff;
+
+    .logo{
+        letter-spacing: 5px;
+    }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+        color: #9a9a9a;
+        letter-spacing: 1pt;
+      -webkit-transition: all 0.4s 0s ease;
+      -moz-transition: all 0.4s 0s ease;
+      -o-transition: all 0.4s 0s ease;
+      transition: all 0.4s 0s ease;
+    }
+    li:hover {
+        color: #fff;
+    }
+
+    .socials{
+        margin-left: 1em;
+        color: #fff;
+    }
+  }
+}
